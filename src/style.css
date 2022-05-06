@@ -1,0 +1,156 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 20px;
+  box-sizing: border-box;
+}
+#year-options {
+  display: flex;
+  gap: 10px;
+  margin: 10px;
+}
+.can-image {
+  width: 200px;
+  height: 180px;
+}
+#can-list {
+  display: grid;
+  gap: 20px;
+  min-height: 480px;
+  grid-template-columns: repeat(3, 1fr);
+}
+.can {
+  display: flex;
+  height: 200px;
+  flex-direction: column;
+  background-color: #fafafa;
+  border: 1px solid black;
+  padding: 10px;
+  gap: 5px;
+}
+.filter-option,
+.active-option {
+  padding: 10px 20px;
+  min-width: 50px;
+  border-radius: 0.5rem;
+}
+.stack-filter {
+  display: flex;
+  margin: 15px;
+}
+#stack-input {
+  width: 80px;
+  margin: 0 10px;
+  height: 30px;
+}
+.filter-option:hover,
+.active-option {
+  background-color: #5b5b5b;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  transition: all 0.1s;
+}
+/* add */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1,
+h2,
+h3 {
+  margin: 0.5rem 0;
+}
+h1 {
+  font-size: 1.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+}
+h3 {
+  font-size: 1rem;
+}
+a {
+  text-decoration: none;
+}
+.list {
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  height: 240px;
+  align-content: flex-start;
+}
+.row.center {
+  align-items: center;
+}
+.col-1 {
+  flex: 1;
+}
+.col-2 {
+  flex: 2;
+}
+.block {
+  background-color: #c3c2c2;
+  padding: 1rem;
+  margin: 0.5rem;
+  border-radius: 0.3rem;
+}
+.text-right {
+  text-align: right;
+}
+img.small {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+}
+button {
+  font-size: 0.8rem;
+  padding: 0.2rem;
+  margin: 0.1rem;
+  border-radius: 0.5rem;
+  border: 0.1rem #404040 solid;
+  background-color: #f0c040;
+  width: 100%;
+  cursor: pointer;
+}
+button.add {
+  background-color: #40c0f0;
+  width: 1.5rem;
+}
+button.remove {
+  background-color: #f04040;
+  width: 1.5rem;
+}
+button.badge {
+  background-color: #f04040;
+  border: none;
+  color: #ffffff;
+  width: 1.5rem;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  padding: 2px 16px;
+  margin: 10px;
+  width: 200px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 600px;
+}
+.stacks {
+  display: flex;
+  justify-content: space-between;
+}
+.name {
+  display: flex;
+  justify-content: space-between;
+}
